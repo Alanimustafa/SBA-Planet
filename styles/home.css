@@ -33,12 +33,12 @@ color:white}
                   padding-top:1vh;
                 }
 
+                
         /* The Social Media Main Container */
         .social-login {
           display: flex;
           margin-left: auto;
-          margin-right:10vw;
-          align-content: center;
+          margin-right:3vw;
           justify-content:space-between
         }
 
@@ -54,6 +54,15 @@ color:white}
                   font-size: 35px;;
                 }
 
+                /* Login */
+                .login {
+                  align-self: center;
+                  font-family: 'Times New Roman', Times, serif;
+                }
+                      .login > a {
+                        font-family:'Courier New', Courier, monospace;
+                      }
+              
 
 
 
