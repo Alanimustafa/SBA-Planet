@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Planet - Animals</title>
     <meta name="description" content="">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/animals.css">
   </head>
   <body>
 
@@ -37,50 +38,139 @@
      <!-- Divider -->
      <div class="divider"></div>
 
+
+
      <!-- Main Navagation Bar -->
       <div class="navegationBar">
-        
-          <!-- Home -->
-          <div class="homebutton">
-            <a href="./main.html">HOME</a>
-            </div>
-
-          <!-- Animal -->
-          <div class="animalButtons">
-            <a href="./animal.html">ANIMALS</a>
-            </div>
-
-          <!-- Nature -->
-          <div class="natureButtons">
-            <a href="./nature.html">NATURE</a>
-            </div>
-
-          <!-- Science -->
-          <div class="scienceButtons">
-            <a href="./science.html">SCIENCE</a>
-            </div>
-
-          <!-- Animal -->
-          <div class="environmaelButtons">
-            <a href="./environment.html">ENVIRONMENT</a>
-            </div>
-
-          <!-- Search Form -->
-          <div class="searchForm">
-            <button class="searchButton">
-              <input class="searchBar" type="search" placeholder="Search"> Search
-            </button>
-            
+              
+        <!-- Home -->
+        <div class="dropdown">
+          <button class="homebutton">HOME</button>
+          <div class="dropdown-content">
+            <a href="./animal.html">Animal</a>
+            <a href="./nature.html">Nature</a>
+            <a href="./science.html">science</a>
           </div>
+        </div>
+
+        <!-- Animal -->
+        <div class="dropdown">
+          <button class="homebutton">ANIMALS</button>
+          <div class="dropdown-content">
+            <a href="./main.html">Home</a>
+            <a href="./nature.html">Nature</a>
+            <a href="./science.html">science</a>
+          </div>
+        </div>
+
+        <!-- Nature -->
+        <div class="dropdown">
+          <button class="homebutton">NATURE</button>
+          <div class="dropdown-content">
+            <a href="./main.html">Home</a>
+            <a href="./animal.html">Animals</a>
+            <a href="./science.html">science</a>
+          </div>
+        </div>
+
+        <!-- Environment -->
+        <div class="environmaelButtons">
+          <a href="./environment.html">ENVIRONMENT</a>
+          </div>
+
+        <!-- Search Form -->
+        <div class="searchForm">
+          <button class="searchButton">
+            <input class="searchBar" type="search" placeholder="Search"> Search
+          </button>
+          
+        </div>
       </div>
+
+
 
       <!-- Divider -->
       <div class="divider"></div> 
       
-      <!-- the homepage contents -->
-      <div class="homeContents">
 
-      </div>
+
+         <!-- The Main Story -->
+         <div class="mainStoryContainer" id="mainStoryContainer">
+
+              <!-- Main Story Background -->
+              <div class="storyImag">
+
+                <video class="mainStoryImageTag" preload="auto" loop autoplay src="https://v.ftcdn.net/04/02/75/06/240_F_402750671_YFqg9vlI3A6Hofx5nYSAzGMLETxbB6yZ_ST.mp4"></video>
+              </div>
+
+                    <!-- Story Text -->
+              <div class="storyText">
+
+                <!-- The Story Header -->
+                <h1>Why Are There No Tigers In Africa?</h1>
+
+                <p class="mainPreText"> <span style="font-weight: bold; color: red; font-size: 55px; font-family: 'Times New Roman', Times, serif;">     D</span>espite being home to elephants, lions, hippos, and more dominant animals, there have never been any wild tigers in Africa.
+
+                  It’s surprising to many. As part of the Felidae family of cats, ancestors of tigers originated in Africa. The family includes cheetahs, lions, tigers, leopards and jaguars - some of which do live in the African plains.
+                  
+                  However, it is believed that one branch of the family travelled to Asia roughly two million years go, eventually evolving into the striped predators that sit atop the food chain in areas of India, Nepal and elsewhere today.
+                  
+                  Although this is the common belief among researchers, no one knows for definite why tigers chose long ago to migrate from their homeland and never return.
+                  
+                  J.L. David Smith, a professor at the University of Minnesota's department of fisheries, wildlife and conservation biology, explained: “One can offer a series of speculations about why tigers did not get to Africa, but they are all speculations.”
+                  
+                  Wildlife Conservation Society figures show that there are currently around 3,000 tigers left in the wild, and the animals are endangered in Asia as a result of poaching, loss of habitat, and a lack of prey.
+                                        
+                    <a class="readMoreHyperlink" href="https://www.treesisters.org/post/autumn-equinox-cycles?gad_source=1&gclid=Cj0KCQiA6Ou5BhCrARIsAPoTxrCXiDUd1YcbafQLgtVEZE48d3G1x2Znr4cFonlorKj-7nhghpOoUp0aAoDIEALw_wcB" target="_blank">read more</a>
+                </p>
+
+            </div>
+
+       </div>
+
+
+      <!-- Main Page footer -->
+       <div class="mainPageFooter">
+        <div class="legal">
+          <h3 class="footerH3">Legal</h3>
+          <a href="">Terms of Use</a> <br>
+          <a href="">Privacy Policy</a><br>
+          <a href="">Your US State Privacy Rights</a><br>
+          <a href="">Children's Online Privacy Policy</a><br>
+          <a href="">Interest-Based Ads</a><br>
+          <a href="">About Nielsen Measurement</a><br>
+          <a href="">Do Not Sell or Share My Personal Information</a><br>
+        </div>
+        <div class="ourSites">
+          <h3 class="footerH3">Our Sites</h3>
+          <a href="" class="ourSites1">Nat Geo Home</a> <br>
+          <a href="" class="ourSites2">Attend a Live Event</a><br>
+          <a href="" class="ourSites3">Book a Trip</a><br>
+          <a href="" class="ourSites4">Buy Maps</a><br>
+          <a href="" class="ourSites5">Inspire Your Kids</a><br>
+          <a href="" class="ourSites6">Shop Nat Geo</a><br>
+          <a href="" class="ourSites7">Visit the D.C. Museum</a><br>
+          <a href="" class="ourSites8">Watch TV</a><br>
+          <a href="" class="ourSites9">Learn About Our Impact</a><br>
+          <a href="" class="ourSites10">Support Our Mission</a><br>
+          <a href="" class="ourSites11">Masthead</a><br>
+          <a href="" class="ourSites12">Press Room</a><br>
+          <a href="" class="ourSites13">Advertise With Us</a><br>
+        </div>
+        <div class="joinUs">
+          <h3 class="footerH3">Join Us</h3>
+          <a href="" class="joinUs1">Subscribe</a><br>
+          <a href="" class="joinUs2">Customer Service</a><br>
+          <a href="" class="joinUs3">Renew Subscription</a><br>
+          <a href="" class="joinUs4">Manage Your Subscription</a><br>
+          <a href="" class="joinUs5">Work at Nat Geo</a><br>
+          <a href="" class="joinUs6">Sign Up for Our Newsletters</a><br>
+          <a href="" class="joinUs7">Contribute to Protect the Planet</a><br>
+        </div>
+        <div class="followUs">
+          <h1 class="sbaH1">SBA 307 - HTML and CSS</h1>
+        </div>
+       </div>
     
     <script src="" async defer></script>
   </body>
