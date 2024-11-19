@@ -5,9 +5,22 @@ body {
 
 a {
   text-decoration: none;
-  font-family:impact;
+  font-family:'Times New Roman', Times, serif;
+  color:white
+}
 
-color:white}
+h1 {
+  text-align: center;
+}
+
+pre {
+  font-size: 35px;;
+}
+
+.divider {
+  border: solid orange 1px;;
+}
+
 
 /* The main header container */
 .main-header {
@@ -17,23 +30,19 @@ color:white}
   justify-self: center;
   justify-content: space-evenly;
   align-content: center;
-  border: solid yellow 2px;
 }
 
-        /* The logo Image - Website name */
+/* The logo Image - Website name */
         .webPage-name {
-          border: solid orange 1px;
-          width: 200px;;
-
+          width: 200px;
         }
 
                 /* The Logo Image */
                 .LogoImage {
-                  Width: 100%;
-                  padding-top:1vh;
+                  Width: 130%;
                 }
 
-                
+
         /* The Social Media Main Container */
         .social-login {
           display: flex;
@@ -62,7 +71,106 @@ color:white}
                       .login > a {
                         font-family:'Courier New', Courier, monospace;
                       }
-              
 
+                      
+/* The Navegation Bar */
 
+.navegationBar {
+  display: flex;
+  width: 98%;
+  height: auto;
+  padding-top: 1vh;
+  justify-self: center;
+  margin-bottom: 1vh;;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.navegationBar > div {
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+.searchBar {
+  font-size: 30px;
+}
+
+.navegationBar > div:hover {
+  box-shadow: 0px 0px 25px white;
+  color: orange;
+}
+
+.searchButton {
+  background-color: #333c3f;
+  color: white;
+  font-size: 30px;;
+}
+
+.homeContents, .mainStoryContainer {
+  border: solid orange 4px;
+  display: flex;
+  margin: 15px;
+  width: 98%;
+  height:100%;
+  padding: 5px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.homeContents > div {
+  /* border: solid red 3px; */
+  width: 585px;
+  height: 100%;
+  margin: 20px;
+  box-shadow: 0px 0px 50px gray;
+}
+
+#mainStoryContainer {
+  width:50vw;;
+}
+
+.storyImag {
+  width: 99%;
+  min-height: 90%;
+  justify-self: center;
+}
+
+.mainStoryImageTag {
+  width: 100%;
+  justify-self: center;
+}
+
+.storyText {
+  width: 99%;
+  height: 700px;;
+  border: solid gray 5px;
+  background-color: white;
+  flex-wrap: wrap;
+}
+
+.mainPreText {
+  flex-wrap: wrap;
+  font-size: 40px;
+  padding: 15px;
+}
+.readMoreHyperlink {
+  color: blue;
+}
+
+.seconStoryContainer,
+.thirdStoryContainer {
+  width: 250px;
+  height: 50%;
+  object-fit: contain;
+  flex-wrap: wrap;
+  background-color: rgb(255, 242, 183);
+}
+
+.seconStoryImage,
+.thirdMainImageTag {
+  width: 100%;
+}
 
