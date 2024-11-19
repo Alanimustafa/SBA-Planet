@@ -174,3 +174,56 @@ pre {
   width: 100%;
 }
 
+.mainPageFooter {
+  display: flex;
+  border: solid orange 4px;
+  width: 97%;
+  height: 100%;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  padding: 1em;
+  justify-self: center;
+  background-color: rgb(17, 17, 17);
+  justify-content: space-evenly;
+}
+
+.mainPageFooter > div {
+  width: 15%;
+  height: 100%;
+  margin: 5px;
+}
+
+.legal,
+.ourSites,
+.joinUs {
+  font-size: 30px;
+  line-height: 2em;
+}
+
+.sbaH1 {
+  color: white;
+}
+
+.footerH3 {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
