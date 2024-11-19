@@ -1,0 +1,59 @@
+body {
+  display: inline;
+  background-color: #333c3f;
+}
+
+a {
+  text-decoration: none;
+  font-family:impact;
+
+color:white}
+
+/* The main header container */
+.main-header {
+  display: flex;
+  width:98%;
+  height:8vh;
+  justify-self: center;
+  justify-content: space-evenly;
+  align-content: center;
+  border: solid yellow 2px;
+}
+
+        /* The logo Image - Website name */
+        .webPage-name {
+          border: solid orange 1px;
+          width: 200px;;
+
+        }
+
+                /* The Logo Image */
+                .LogoImage {
+                  Width: 100%;
+                  padding-top:1vh;
+                }
+
+        /* The Social Media Main Container */
+        .social-login {
+          display: flex;
+          margin-left: auto;
+          margin-right:10vw;
+          align-content: center;
+          justify-content:space-between
+        }
+
+                /* YouTube */
+                .socialMedia {
+                  width:auto;
+                  height: 5vh;
+                  align-self: center;
+                  padding-top: 1vh;
+                  padding-bottom: 1vh;
+                  margin-left:3vw;
+                  margin-right: 3vw;
+                  font-size: 35px;;
+                }
+
+
+
+

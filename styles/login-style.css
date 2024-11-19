@@ -1,0 +1,97 @@
+body {
+
+  background-color: #333f3c;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.homePage {
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 80px;
+  margin-left: auto;
+}
+
+.homePage > a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.loginBox {
+  display: block;
+  border: solid orange 15px;
+  background-color: rgb(247, 242, 242);
+  width: 640px;;
+  height: auto;
+  margin-left: 40%;
+  margin-top: 8%;
+  flex-wrap: wrap;
+}
+
+
+.header {
+  display: block;
+  width: 99%;
+  height: 33%;
+  justify-content:center;
+}
+
+img {
+  display: block;
+  width: 16%;
+  height: 29%;
+  margin-top: 7%;
+  margin-left: 42%;
+  margin-bottom: 5px;
+}
+
+.headerLogo {
+  width: 46%;
+  height: 25%;
+  margin-left: 25%;
+  margin-top: 0;
+}
+
+.credential {
+  display: block;
+  width: 57%;
+  height: 55%;
+  margin-left: 20%;
+  margin-top: 15px;
+}
+
+.userName,
+.userPassword {
+  color: black;
+  margin: 0;
+}
+
+.loginButton {
+  display: block;
+  margin-left: 40%;
+  margin-top:1%
+}
+
+.footer {
+  display: flex;
+  border: double black 5px;
+  justify-content:space-around;
+  font-size: 19px;
+  margin-top: 10%;
+  
+}
+
+.forgotPassword,
+.createAccount {
+ padding: 2%;;
+}
+
+
+.switch {
+  color: blue;
+  text-decoration: none;
+  margin-left:15vw;
+  margin-top:auto;
+}
