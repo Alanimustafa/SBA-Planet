@@ -19,9 +19,15 @@
     object-fit: fill;
   }
 
-  .natureTable {
+  .pageTitle {
     display: none;
   }
+  
+  .natureTable, .tables {
+    display: none;
+  }
+
+  
 
   .natureImagesTag {
     width: 100%;
@@ -31,7 +37,7 @@
 
 /* --------- Phone Style ---------------- */
 
-@media (min-width: 760px) {
+@media (min-width: 1200px) {
 
   .mainStoryContainer {
     /* border: solid blue; */
@@ -67,9 +73,34 @@
 }
 
 
+/* --------- Tablet Style ---------------- */
 
-/* --------- Tablet
- Style ---------------- */
+
+@media (min-width: 1000px) {
+
+  .mainStoryContainer {
+    /* border: solid blue; */
+    background-color: #333c3f;
+    display: block;
+    height: 100%;
+    flex-direction: row;
+  }
+
+  
+
+
+  .natureTable {
+    display: none;
+  }
+
+  
+}
+
+
+/* --------- Tablet Style ---------------- */
+
+
+
 body {
   display: block;
   background-color: #333c3f;
@@ -123,7 +154,7 @@ pre {
         .social-login {
           display: flex;
           margin-left: auto;
-          margin-right:3vw;
+          margin-right:5vw;
           max-width: 100%;
           justify-content:space-between
         }
@@ -131,10 +162,8 @@ pre {
                 /* YouTube */
                 .socialMedia {
                   width:auto;
-                  height: 5vh;
-                  align-self: center;
-                  padding-top: 1vh;
-                  padding-bottom: 1vh;
+                  height: 15vh;
+                  margin: 23px;;
                   margin-left:3vw;
                   margin-right: 3vw;
                   font-size: 35px;;
@@ -277,8 +306,8 @@ pre {
 .naturalImages {
   display: flex;
   justify-content: space-around;
-  margin: 2vw;
-  flex-direction: row;
+  margin: 1em;
+  justify-self: center;
 }
 
 .natImages {
